@@ -21,8 +21,7 @@ jobs:
 
     strategy:
       matrix:
-        # Added linux-arm and win-arm to support arm32
-        os:[ linux-arm64, linux-x64, win-arm64, win-x64, linux-arm, win-arm ]
+        os: [ linux-arm ]
 
     steps:
       - name: Checkout code
